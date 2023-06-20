@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/background" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/login_btn_background"
+        android:text="Siguente"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre Completo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="117dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="155dp"
+        android:text="Registro"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Telefono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Correo Electronico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Direccion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="228dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="N_Ext /N_Int"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="347dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Numero de Tarjeta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="220dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fecha Vencimiento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CVV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

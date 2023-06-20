@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restaurantes"
+        android:actionLayout="@layout/opcion_uno"
+        android:title="Restaurantes"/>
+    <item
+        android:id="@+id/privacidad"
+        android:title="Privacidad"/>
+
+    <item
+        android:id="@+id/sobre"
+        android:icon="@drawable/baseline_info_24"
+        android:title="Sobre la App" />
+</menu>
